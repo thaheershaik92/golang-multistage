@@ -19,7 +19,7 @@ Run CGO_ENABLED=0 go build variable.go
 
 From scratch
 
-Copy --From=BUILD VARIABLE.GO
+Copy --From=BUILD VARIABLE.GO VARIABLE.GO
 
 ENTRYPOINT ["VARIABLE.GO"]
 
